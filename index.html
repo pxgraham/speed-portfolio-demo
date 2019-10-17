@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="data:image/jpeg;base64,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" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Jane Doe</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Web Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>800.645.65464</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Web Developer</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  	<a href="https://facebook.com" target="_blank">
+	<i class="fa fa-facebook-official w3-hover-opacity"></i>
+	</a>
+</footer>
+
+</body>
+</html>
